@@ -1,5 +1,3 @@
-# GroupProject_jsonStatham_API
-
 <h2>Campfire:</h2>
 <h3> Group Members: Pedro Cantu, Stefan Hristov, Mustafa Ramadan, Heejun You </h3>
 
