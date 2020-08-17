@@ -2,7 +2,10 @@
 
 <h2>Campfire:</h2>
 <h3> Group Members: Pedro Cantu, Stefan Hristov, Mustafa Ramadan, Heejun You </h3>
-You are currenly on the API repository for project Campfire. 
+You are currenly on the API repository for project Campfire.
+
+Deployment Link: https://campfire-ui.herokuapp.com/
+**As per any authenticated user web application, a user must sign-in to create their own contacts to see all necessary functionality.**
 
 <b>API Repository:</b> https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API
 
@@ -10,10 +13,44 @@ You are currenly on the API repository for project Campfire.
 
 Our group project is called <b>Campfire</b>. The purpose of this web application is for a user to log into the webapp, and be able to add "contacts" into their personalized address book, and be able to set frequencies for how often they would like to reconnect with their contacts. Thus by using this webapp, the user will always be reconnecting with contacts in accordance to how often they want to reconnect with them. Forgetfulness is no longer a factor when using Campfire. The basis of this project has been created using the boilerplate code used from the MERN Stack Issue Tracker Book Project by Vasan Subramanian.
 
+## Final Screenshots of Campfire Project
+
+<b>The Welcome page prior to signing in. And if not signed it, will not allow the user to access the Dashboard/ Contacts page.</b>
+![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Welcome2.png)
+
+<b>The Dashboard page where a user can view the upcoming contacts based on urgency (date).</b>
+![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Dashboard2.png)
+
+<b>The Dashboard page where a user can filter our contacts via urgency (date).</b>
+![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/DashboardFilter2.png)
+
+<b>The Contacts page where a user can view all of their contacts.</b>
+![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Contacts2.png)
+
+<b>The Contacts page where a user can drill down into a specific contact revealing additional details of the selected contact.</b>
+![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/ContactsDetails2.png)
+
+<b>The Contacts page where a user can filter out contacts according to the filters allowed.</b>
+![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/ContactsFilter2.png)
+
+<b>The Contacts page where a user can delete/ restore selected contacts. </b>
+![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Delete2.png)
+
+<b>The Contacts page where a user can activate/deactivate a selected contact. </b>
+![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Toggle2.png)
+
+<b>On the navigation bar, the plus icon allows a user to add a contact to their contact book.</b>
+![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Add2.png)
+
+<b>On the navigation bar, the search bar allows the user to search according to contact name or company.</b>
+![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Search2.png)
+
+<b>The user has the ability to edit a contact's information including but not limited to reminder frequency, next contact date, etc.</b>
+![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Edit2.png)
 
 ## Iteration 3.0:
 
-Deployment Link: 
+Deployment Link: https://campfire-ui.herokuapp.com/
 **As per any authenticated user web application, a user must sign-in to create their own contacts to see all necessary functionality.**
 
 Repository Links:
@@ -45,6 +82,7 @@ Repository Links:
  - **Mustafa Ramadan**:
     - The Welcome page lets the user know that he needs to be signed in to use any functionalities or be redirected to other pages. e.g. Toast message.
     - Reconfigured the Heroku application to a unique domain name
+    - Updated Readme for Iter3
  - **Stefan Hristov**:
     -  Implemented a user friendly, polished CSS styling.
     -  Toast message for deletion and restore shows a name of a contact instead of the id of a contact.
